@@ -1,18 +1,40 @@
 # GTC Commitment Curve
 
-**Co/Unity GTC Playbook — Play #1.**
+**Co/Unity GTC Playbook, Play #1.**
 
-A portable, agent-native methodology for designing community engagement journeys. Drop this repo into Claude Code or Claude Cowork, tell the agent to read it, and the agent will walk you through generating a persona-specific commitment curve for your project.
+Most communities make a sequencing mistake. They throw every engagement opportunity at members at once. Day one, a brand-new lurker is hit with "become an ambassador," and bounces.
 
-The curve fuses three frameworks:
-- The Community Commitment Curve (Atkin / Jones)
-- BJ Fogg's Behavior Model
-- Werbach's 10 gamification mechanics
+The fix is sequencing. The Community Commitment Curve is a four-stage arc that moves a member from passive observer to active leader, one ask at a time. Each ask is sized correctly for where they are. Each one earns the right to make the next.
 
-The output is a structured report and an interactive visual showing the right *sequence* of asks to move each persona from passive lurker to active advocate.
+This repo is a portable methodology for designing that curve, persona by persona. You drop it into your AI agent (Claude Code, Claude Cowork, your tool of choice), tell the agent to read the repo and run it, and the agent will:
 
-Built by [Co/Unity](https://counity.xyz). More plays coming.
+1. Ask you for your project and the personas you're designing for
+2. Analyze each persona through the Fogg Behavior Model and its three core motivators (Sensation, Anticipation, Belonging)
+3. Generate twelve sequenced plays per persona, three for each of the four stages of the curve, drawing from Werbach's ten gamification mechanics
+4. Produce a structured report and an interactive visual you can share, screenshot, or paste into your team docs
+
+For multiple personas, the agent generates separate curves for each plus a short compare-and-contrast.
+
+## How to use it
+
+Open your AI agent. Point it at this repo. Tell it: *"Read this repo and run it."*
+
+The agent will guide you from there.
+
+## What's inside
+
+- `AGENT.md`: the master orchestration the agent executes
+- `frameworks/`: the three knowledge bases (Commitment Curve, Werbach mechanics, Fogg motivators) plus an affinity reference
+- `personas/`: ten prebuilt archetypes you can use as starting points
+- `templates/`: the output formats the agent fills in
+- `PRINCIPLES.md`: the design ethos that shapes every play
+
+## Frameworks credit
+
+- **The Community Commitment Curve.** Douglas Atkin (Airbnb), modernized by Carrie Melissa Jones, with intellectual lineage to Marshall Ganz.
+- **The Behavior Model.** Dr. BJ Fogg, Stanford.
+- **The 10 Gamification Mechanics.** Kevin Werbach and Dan Hunter, *For the Win*.
 
 ---
 
-*This repo is the deliverable. Spec, frameworks, and agent instructions are inside.*
+Built by [Co/Unity](https://counity.xyz). We design, build, and optimize communities as strategic growth infrastructure. More plays coming.
