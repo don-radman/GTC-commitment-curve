@@ -4,7 +4,7 @@ The toolkit each play in the curve draws from. From Kevin Werbach and Dan Hunter
 
 These are the levers. The Commitment Curve dictates the order. The Fogg model dictates which motivator each play needs to fire. This file provides the vocabulary the agent draws from when designing each play.
 
-The agent should treat the ten as a vocabulary, not a checklist. No single mechanic should appear more than twice across the twelve plays of one persona's curve.
+The agent should treat the ten as a vocabulary, not a checklist. No single mechanic should appear more than three times across the twelve plays of one persona's curve.
 
 ---
 
@@ -70,9 +70,12 @@ The agent should treat the ten as a vocabulary, not a checklist. No single mecha
 
 ## 7. Rewards
 
-**What it is:** External value given for participation.
+**What it is:** External value given for participation. Rewards come in two flavors, both real and both useful when applied with intent.
 
-**Critical for this repo:** Rewards mean recognition, status, and access. **Never financial.** Direct token, airdrop, or cash payments for engagement are out of scope. Extrinsic-financial rewards degrade community quality fast and are why most token-incentivized communities ghost after the drop clears.
+- **Intrinsic rewards** are recognition, status, access, and identity. They cost the project little to give and tend to compound community quality over time.
+- **Extrinsic rewards** are tokens, points, cash, or other financial value. They have a strategic place when used carefully (a finite launch incentive, a season-end bonus, a paid bug bounty), but they're often the default move in web3 community work when intrinsic rewards would have done the job better. Overuse degrades engagement quality and trains members to participate for the payout rather than the place.
+
+**Guidance for the agent:** lean intrinsic by default. Reach for extrinsic when the play genuinely calls for it (a specific moment, a finite incentive, a time-bound goal). Be especially cautious with extrinsic in the early stages of the curve (Discovering, Joining), where members haven't built any commitment yet and where extrinsic creates the wrong selection bias.
 
 **General example:** Starbucks Odyssey rewards loyal customers with experiences and perks rather than cash.
 
@@ -117,5 +120,5 @@ When generating each play in the curve:
 1. Pick exactly one mechanic from the ten above for each play
 2. Cross-check the mechanic against the persona's dominant Fogg motivator using `mechanic-motivator-affinity.md`
 3. Tailor the play's specific ask to the project's actual surface area (Discord, Telegram, Farcaster, in-product, etc.)
-4. Treat Rewards as recognition and access only. Never financial.
-5. No single mechanic should appear more than twice across the twelve plays for one persona's curve
+4. Lean intrinsic on Rewards by default; reach for extrinsic only when the play genuinely calls for it
+5. No single mechanic should appear more than three times across the twelve plays for one persona's curve
