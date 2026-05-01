@@ -17,8 +17,6 @@ The curve has been around longer than the community industry. The lineage runs t
 - **Douglas Atkin** (former Head of Community at Airbnb and earlier at Meetup) who introduced it to the community industry at CMX Summit 2014, using it to mobilize Airbnb hosts into a public-policy advocacy force
 - **Carrie Melissa Jones** (CMX) who designed the modern visualization and built the methodology most community professionals reference today
 
-Co/Unity treats it as the canonical sequencing tool for community design, and uses it as the structural backbone of this play.
-
 ---
 
 ## The four stages
@@ -64,20 +62,6 @@ The operating rules. The agent applies these when assigning mechanics, sizing as
 
 ---
 
-## Time to first belonging (TTFB)
-
-A sub-metric specific to stages 1 and 2.
-
-**Definition:** the cumulative time and friction a member spends before they hit a moment of *"I belong here."* Quantitatively, the elapsed minutes from first exposure to first explicit signal of being seen, welcomed, or included.
-
-**Why it matters:** belonging in stage 2 is the unlock for everything downstream. Members who don't feel belonging by the end of stage 2 don't proceed to stage 3, regardless of how clever the later plays are.
-
-**Operational target:** the first three plays (all of stage 1 plus the first stage 2 play) should produce TTFB in a single first session. Sub-10 minutes for low-friction personas (Lurker, Newcomer). Longer for personas with emotional debt to the project (Post-Airdrop Ghost, Skeptic), and the agent should call that out explicitly when the persona warrants it.
-
-The agent reports TTFB as part of every curve.
-
----
-
 ## How the agent uses this file
 
 When generating a curve:
@@ -85,15 +69,4 @@ When generating a curve:
 1. Map every play to one of the four stages
 2. Generate exactly three plays per stage, in order
 3. Apply the design principles as hard constraints (escalating friction, no skipping rungs, every play has a specific ask)
-4. Calculate TTFB from stages 1 and 2
-5. Validate against the common-mistakes list before producing the report
-
----
-
-## Quotables (for citation in the report and human review)
-
-- *"Our job is to architect belonging, and the Commitment Curve is our key tool."* (Carrie Melissa Jones)
-- *"What ignites quickly burns out just as fast."* (Carrie Melissa Jones)
-- *"Asking for help is the only way to create a true sense of belonging, rather than a one-to-many broadcast."* (Carrie Melissa Jones)
-- *"Almost like dating, you don't move in together on the second date."* (Petra Podobnik)
-- *"Meet members where they are and gradually guide them to deeper commitment rather than expecting instant engagement."* (Petra Podobnik)
+4. Validate against the common-mistakes list before producing the report
