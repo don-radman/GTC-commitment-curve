@@ -25,7 +25,6 @@ The agent will guide you from there.
 
 - `AGENT.md`: the master orchestration the agent executes
 - `frameworks/`: the three knowledge bases (Commitment Curve, Werbach mechanics, Fogg motivators) plus an affinity reference
-- `personas/`: ten prebuilt archetypes you can use as starting points
 - `templates/`: the output formats the agent fills in
 - `PRINCIPLES.md`: the design ethos that shapes every play
 
