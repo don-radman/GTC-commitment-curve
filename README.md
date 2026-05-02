@@ -6,12 +6,13 @@ Most communities make a sequencing mistake. They throw every engagement opportun
 
 The fix is sequencing. The Community Commitment Curve is a four-stage arc that moves a member from passive observer to active leader, one ask at a time. Each ask is sized correctly for where they are. Each one earns the right to make the next.
 
-This repo is a portable methodology for designing that curve, persona by persona. You drop it into your AI agent (Claude Code, Claude Cowork, your tool of choice), tell the agent to read the repo and run it, and the agent will:
+This repo is a portable methodology for designing that curve, persona by persona. You drop it into your AI agent (Claude Code or Claude Cowork recommended for the full experience), tell the agent to read the repo and run it, and the agent will:
 
-1. Ask you for your project and the personas you're designing for
-2. Analyze each persona through the Fogg Behavior Model and its three core motivators (Sensation, Anticipation, Belonging)
-3. Generate twelve sequenced plays per persona, three for each of the four stages of the curve, drawing from Werbach's ten gamification mechanics
-4. Produce a structured report and an interactive visual you can share, screenshot, or paste into your team docs
+1. Ask you for your project name, your project's website, and the personas you're designing for
+2. Read your website to ground the curves in your actual product, voice, and surface area
+3. Analyze each persona through the Fogg Behavior Model and its three core motivators (Sensation, Anticipation, Belonging)
+4. Generate twelve sequenced plays per persona, three for each of the four stages of the curve, drawing from Werbach's ten gamification mechanics
+5. Produce a structured report and an interactive visual you can share, screenshot, or paste into your team docs
 
 For multiple personas, the agent generates separate curves for each plus a short compare-and-contrast.
 
@@ -25,7 +26,6 @@ The agent will guide you from there.
 
 - `AGENT.md`: the master orchestration the agent executes
 - `frameworks/`: the three knowledge bases (Commitment Curve, Werbach mechanics, Fogg motivators) plus an affinity reference
-- `templates/`: the output formats the agent fills in
 - `PRINCIPLES.md`: the design ethos that shapes every play
 
 ## Frameworks credit
